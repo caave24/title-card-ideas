@@ -25,6 +25,7 @@ Radio Canada Big or Anton, could be used in simple ways, as used traditionally i
 
 
 Parisienne can be served as a luxurious or satirical font. 
+
 <img width="505" height="138" alt="pers" src="https://github.com/user-attachments/assets/e7cd6c97-d715-48bb-a486-c1302f54ecc2" />
 
 
