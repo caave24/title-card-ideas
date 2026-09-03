@@ -3,20 +3,20 @@
 ---
 
 ## Fonts
-https://fonts.google.com/specimen/Radio+Canada+Big
-https://fonts.google.com/specimen/Parisienne
-https://fonts.google.com/specimen/Jersey+25
-https://fonts.google.com/specimen/Gasoek+One
-https://fonts.google.com/specimen/Anton
+- https://fonts.google.com/specimen/Radio+Canada+Big
+- https://fonts.google.com/specimen/Parisienne
+- https://fonts.google.com/specimen/Jersey+25
+- https://fonts.google.com/specimen/Gasoek+One
+- https://fonts.google.com/specimen/Anton
 
 ---
 
 ## Visuals
-<img width="1498" height="543" alt="radiocanbig" src="https://github.com/user-attachments/assets/9c37fbfd-94eb-4e4f-a615-8c474b20241c" />
-<img width="1463" height="572" alt="parisienne" src="https://github.com/user-attachments/assets/dd4db689-48e6-42f7-bfe9-e1d79ec961fd" />
-<img width="1456" height="521" alt="jersey25" src="https://github.com/user-attachments/assets/c1ec97c7-d6cd-4bc7-a344-053e829912b5" />
-<img width="1519" height="702" alt="gasoekone" src="https://github.com/user-attachments/assets/1938d5a9-6a99-44b7-8d7b-eb04c582523e" />
-<img width="1479" height="591" alt="anton" src="https://github.com/user-attachments/assets/cf8f9413-32d4-46f8-b3f8-f5f7257e630b" />
+- <img width="1498" height="543" alt="radiocanbig" src="https://github.com/user-attachments/assets/9c37fbfd-94eb-4e4f-a615-8c474b20241c" />
+- <img width="1463" height="572" alt="parisienne" src="https://github.com/user-attachments/assets/dd4db689-48e6-42f7-bfe9-e1d79ec961fd" />
+- <img width="1456" height="521" alt="jersey25" src="https://github.com/user-attachments/assets/c1ec97c7-d6cd-4bc7-a344-053e829912b5" />
+- <img width="1519" height="702" alt="gasoekone" src="https://github.com/user-attachments/assets/1938d5a9-6a99-44b7-8d7b-eb04c582523e" />
+- <img width="1479" height="591" alt="anton" src="https://github.com/user-attachments/assets/cf8f9413-32d4-46f8-b3f8-f5f7257e630b" />
 
 --- 
 
