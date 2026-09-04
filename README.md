@@ -36,3 +36,8 @@ Jersey 25 is pixelated-bruteness. It can be used in conjunction of a messy mind,
 
 
 ## Animated Examples
+<img width="400" height="324" alt="title005" src="https://github.com/user-attachments/assets/c416a17c-bb26-47bb-9389-a5c35a1c9dd4" />
+<img width="400" height="324" alt="title004" src="https://github.com/user-attachments/assets/44ced125-45bb-4353-8ee9-4c795fd18b5b" />
+<img width="400" height="324" alt="title003" src="https://github.com/user-attachments/assets/a4d5e54f-c28e-4474-b5c6-f8217ea2d3c5" />
+<img width="400" height="324" alt="title002" src="https://github.com/user-attachments/assets/53db87f3-2d3b-4a9e-a689-18372c760b2f" />
+<img width="400" height="324" alt="title001" src="https://github.com/user-attachments/assets/f33f62ba-f902-441a-b4da-2b9a0e93786d" />
