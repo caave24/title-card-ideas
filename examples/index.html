@@ -1,0 +1,1000 @@
+
+        <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0"
+
+>
+
+<title>Title Card Ideas</title>
+
+<!-- ==========================================
+     GOOGLE FONTS
+=========================================== -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+>
+
+<link
+    href="https://fonts.googleapis.com/css2?family=Anton&family=Gasoek+One&family=Jersey+25&family=Parisienne&family=Radio+Canada+Big:opsz,wght@6..144,400..700&display=swap"
+    rel="stylesheet"
+>
+
+<style>
+
+/* --------------------------------------------------
+BASIC
+-------------------------------------------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #111;
+    color: white;
+}
+
+
+/* --------------------------------------------------
+TITLE CARD
+-------------------------------------------------- */
+
+.title-card {
+    width: 100vw;
+    height: 100vh;
+
+    display: grid;
+    place-items: center;
+
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* Visual divider between demos */
+
+.demo {
+    border-bottom: 1px solid rgba(255, 255, 255, .15);
+}
+
+
+/* ==================================================
+01 — RADIO CANADA BIG
+SLIDE + FOCUS
+================================================== */
+
+.radio-canada {
+
+    background: linear-gradient(
+        120deg,
+        #101010,
+        #2b2b2b
+    );
+
+}
+
+
+.radio-canada .title {
+
+    font-family:
+        "Radio Canada Big",
+        sans-serif;
+
+    font-size: 48px;
+
+    font-weight: 700;
+
+    letter-spacing: .123rem;
+
+    animation:
+        radio-enter
+        5s
+        ease-in-out
+        infinite;
+
+}
+
+
+@keyframes radio-enter {
+
+    0% {
+        opacity: 0;
+        transform: translateX(-18vw);
+        filter: blur(20px);
+    }
+
+
+    20% {
+        opacity: 1;
+    }
+
+
+    45% {
+        transform: translateX(0);
+        filter: blur(0);
+    }
+
+
+    75% {
+        transform: translateX(0);
+        filter: blur(0);
+    }
+
+
+    100% {
+        opacity: 0;
+        transform: translateX(12vw);
+        filter: blur(10px);
+    }
+
+}
+
+
+/* ==================================================
+02 — PARISIENNE
+WRITTEN REVEAL
+================================================== */
+
+.parisienne {
+
+    background: radial-gradient(
+        circle at center,
+        #5d4b58,
+        #171417 70%
+    );
+
+}
+
+
+.parisienne .wrapper {
+    text-align: center;
+}
+
+
+.parisienne .title {
+
+    font-family:
+        "Parisienne",
+        cursive;
+
+    font-size:
+        clamp(
+            5rem,
+            16vw,
+            17rem
+        );
+
+    white-space: nowrap;
+
+    animation:
+        script-reveal
+        6s
+        ease-in-out
+        infinite;
+
+}
+
+
+.parisienne .subtitle {
+
+    margin-top: -1rem;
+
+    font-family: serif;
+
+    letter-spacing: .35em;
+
+    font-size:
+        clamp(
+            .7rem,
+            1.5vw,
+            1.2rem
+        );
+
+    opacity: 0;
+
+    animation:
+        subtitle-fade
+        6s
+        ease-in-out
+        infinite;
+
+}
+
+
+@keyframes script-reveal {
+
+    0% {
+        clip-path:
+            inset(
+                0
+                100%
+                0
+                0
+            );
+
+        opacity: 0;
+    }
+
+
+    15% {
+        opacity: 1;
+    }
+
+
+    45% {
+        clip-path:
+            inset(
+                0
+                0
+                0
+                0
+            );
+    }
+
+
+    80% {
+        clip-path:
+            inset(
+                0
+                0
+                0
+                0
+            );
+
+        opacity: 1;
+    }
+
+
+    100% {
+        opacity: 0;
+
+        transform:
+            translateY(-10px);
+    }
+
+}
+
+
+@keyframes subtitle-fade {
+
+    0%,
+    40% {
+        opacity: 0;
+
+        transform:
+            translateY(15px);
+    }
+
+
+    55%,
+    80% {
+        opacity: .75;
+
+        transform:
+            translateY(0);
+    }
+
+
+    100% {
+        opacity: 0;
+    }
+
+}
+
+
+/* ==================================================
+03 — JERSEY 25
+RANDOM DIGITAL TYPEWRITER
+================================================== */
+
+.jersey {
+
+    background: #050505;
+
+}
+
+
+.jersey .typewriter {
+
+    display: flex;
+    align-items: center;
+
+    font-family:
+        "Jersey 25",
+        monospace;
+
+    font-size: 74px;
+
+    letter-spacing: .03em;
+
+    white-space: nowrap;
+
+}
+
+
+/* --------------------------------------------------
+THE TEXT
+-------------------------------------------------- */
+
+#jersey-text {
+
+    white-space: pre;
+
+}
+
+
+/* --------------------------------------------------
+BLINKING CURSOR
+-------------------------------------------------- */
+
+.jersey .cursor {
+
+    display: inline-block;
+
+    width: .08em;
+    height: .85em;
+
+    margin-left: .08em;
+
+    background: currentColor;
+
+    animation:
+        cursor-blink
+        .6s
+        steps(1, end)
+        infinite;
+
+}
+
+
+@keyframes cursor-blink {
+
+    0%,
+    49% {
+        opacity: 1;
+    }
+
+
+    50%,
+    100% {
+        opacity: 0;
+    }
+
+}
+
+
+/* ==================================================
+04 — GASOEK ONE
+IMPACT
+================================================== */
+
+.gasoek {
+
+    background: #f0ebdf;
+
+    color: #111;
+
+}
+
+
+.gasoek .title {
+
+    font-family:
+        "Gasoek One",
+        sans-serif;
+
+    font-size:
+        clamp(
+            5rem,
+            17vw,
+            18rem
+        );
+
+    white-space: nowrap;
+
+    animation:
+        impact
+        4.5s
+        cubic-bezier(.2, .9, .2, 1)
+        infinite;
+
+}
+
+
+@keyframes impact {
+
+    0% {
+        opacity: 0;
+
+        transform:
+            scale(4);
+    }
+
+
+    18% {
+        opacity: 1;
+
+        transform:
+            scale(1);
+    }
+
+
+    100% {
+        opacity: 0;
+
+        transform:
+            scale(.8);
+    }
+
+}
+
+
+/* ==================================================
+05 — ANTON
+VERTICAL MOVIE MAKER WIPE
+================================================== */
+
+.anton {
+
+    background: #181818;
+
+    color: white;
+
+}
+
+
+.anton .title {
+
+    font-family:
+        "Anton",
+        sans-serif;
+
+    font-size:
+        clamp(
+            5rem,
+            18vw,
+            20rem
+        );
+
+    letter-spacing: -.02em;
+
+    position: relative;
+
+    animation:
+        anton-reveal
+        5s
+        cubic-bezier(.7, 0, .3, 1)
+        infinite;
+
+}
+
+
+.anton .bar {
+
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    top: 0;
+
+
+    background: white;
+
+    transform:
+        translateY(0)
+        translateX(0);
+    animation:
+        bar-sweep
+        4s
+        ease-in-out
+        infinite;
+
+}
+
+
+@keyframes anton-reveal {
+
+    0% {
+
+        clip-path:
+            inset(
+                0
+                0
+                100%
+                0
+            );
+
+        transform:
+            translateY(8vw);
+
+    }
+
+
+    25% {
+
+        clip-path:
+            inset(
+                0
+                0
+                0
+                0
+            );
+
+        transform:
+            translateY(0);
+
+    }
+
+
+    70% {
+
+        clip-path:
+            inset(
+                0
+                0
+                0
+                0
+            );
+
+    }
+
+
+    100% {
+
+        clip-path:
+            inset(
+                100%
+                0
+                0
+                0
+            );
+
+    }
+
+}
+
+
+@keyframes bar-sweep {
+
+    0%,
+    18% {
+
+        transform:
+            translateY(0)
+            translateX(-100%);
+
+    }
+
+
+    35%,
+    70% {
+
+        transform:
+            translateY(0)
+            translateX(100%);
+
+    }
+
+
+    100% {
+
+        transform:
+            translateY(0)
+            translateX(100%);
+
+    }
+
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+
+
+
+<!-- ==========================================
+     RADIO CANADA BIG
+=========================================== -->
+
+<section
+    class="
+        title-card
+        demo
+        radio-canada
+    "
+>
+
+
+<div class="title">
+    RADIO CANADA
+</div>
+
+
+</section>
+
+<!-- ==========================================
+     PARISIENNE
+=========================================== -->
+
+<section
+    class="
+        title-card
+        demo
+        parisienne
+    "
+>
+
+
+<div class="wrapper">
+
+    <div class="title">
+        Parisienne
+    </div>
+
+
+    <div class="subtitle">
+        Fart a little...
+    </div>
+
+</div>
+
+
+</section>
+
+<!-- ==========================================
+     JERSEY 25
+=========================================== -->
+
+<section
+    class="
+        title-card
+        demo
+        jersey
+    "
+>
+
+
+<div class="typewriter">
+
+    <span id="jersey-text"></span>
+
+    <span class="cursor"></span>
+
+</div>
+
+
+</section>
+
+<!-- ==========================================
+     GASOEK ONE
+=========================================== -->
+
+<section
+    class="
+        title-card
+        demo
+        gasoek
+    "
+>
+
+
+<div class="title">
+    GASOEK
+</div>
+
+
+</section>
+
+<!-- ==========================================
+     ANTON
+=========================================== -->
+
+<section
+    class="
+        title-card
+        demo
+        anton
+    "
+>
+
+
+<div class="bar"></div>
+
+
+<div class="title">
+    ANTON
+</div>
+
+
+</section>
+
+<!-- ==========================================
+     JERSEY 25 SCRIPT
+=========================================== -->
+
+<script>
+
+
+/* --------------------------------------------------
+ELEMENT
+-------------------------------------------------- */
+
+const textElement =
+    document.getElementById(
+        "jersey-text"
+    );
+
+
+/* --------------------------------------------------
+TEXT TO TYPE
+-------------------------------------------------- */
+
+const text =
+    "JERSEY 25";
+
+
+/* --------------------------------------------------
+WAIT
+-------------------------------------------------- */
+
+function wait(ms) {
+
+    return new Promise(
+        resolve => {
+
+            setTimeout(
+                resolve,
+                ms
+            );
+
+        }
+    );
+
+}
+
+
+/* --------------------------------------------------
+RANDOM NUMBER
+-------------------------------------------------- */
+
+function random(
+    min,
+    max
+) {
+
+    return (
+        Math.random()
+        *
+        (max - min)
+        +
+        min
+    );
+
+}
+
+
+/* --------------------------------------------------
+TYPE TEXT
+-------------------------------------------------- */
+
+async function typeText() {
+
+
+    for (
+        let i = 0;
+        i < text.length;
+        i++
+    ) {
+
+
+        /* Add one character */
+
+        textElement.textContent +=
+            text[i];
+
+
+        /*
+        Typing rhythm:
+
+        2 letters fast
+        1 letter slow
+        3 letters semi-fast
+
+        Then the pattern repeats.
+        */
+
+
+        const pattern =
+            i % 6;
+
+
+        /* ------------------------------
+           TWO FAST
+        ------------------------------ */
+
+        if (
+            pattern === 0
+            ||
+            pattern === 1
+        ) {
+
+            await wait(
+                random(
+                    45,
+                    100
+                )
+            );
+
+        }
+
+
+        /* ------------------------------
+           ONE SLOW
+        ------------------------------ */
+
+        else if (
+            pattern === 2
+        ) {
+
+            await wait(
+                random(
+                    300,
+                    650
+                )
+            );
+
+        }
+
+
+        /* ------------------------------
+           THREE SEMI-FAST
+        ------------------------------ */
+
+        else {
+
+            await wait(
+                random(
+                    110,
+                    220
+                )
+            );
+
+        }
+
+    }
+
+}
+
+
+/* --------------------------------------------------
+DELETE TEXT
+-------------------------------------------------- */
+
+async function deleteText() {
+
+
+    while (
+        textElement
+            .textContent
+            .length
+        >
+        0
+    ) {
+
+
+        /* Remove one character */
+
+        textElement.textContent =
+            textElement
+                .textContent
+                .slice(
+                    0,
+                    -1
+                );
+
+
+        /* Random deletion speed */
+
+        await wait(
+            random(
+                70,
+                180
+            )
+        );
+
+    }
+
+}
+
+
+/* --------------------------------------------------
+MAIN LOOP
+-------------------------------------------------- */
+
+async function startTypewriter() {
+
+
+    while (true) {
+
+
+        /* Start empty */
+
+        textElement.textContent =
+            "";
+
+
+        /* TYPE */
+
+        await typeText();
+
+
+        /*
+        HOLD FULL TEXT
+
+        Gives the viewer time
+        to read / parse it.
+        */
+
+        await wait(
+            random(
+                1800,
+                2800
+            )
+        );
+
+
+        /* DELETE */
+
+        await deleteText();
+
+
+        /*
+        HOLD EMPTY
+
+        Small pause before
+        the next typing cycle.
+        */
+
+        await wait(
+            random(
+                800,
+                1600
+            )
+        );
+
+    }
+
+}
+
+
+/* --------------------------------------------------
+START
+-------------------------------------------------- */
+
+startTypewriter();
+
+
+</script>
+
+</body>
+
+</html>
